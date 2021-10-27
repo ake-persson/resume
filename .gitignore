@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+
+/node_modules
+/package.json
+/package-lock.json
+
+/.sass-cache
+
+/html/css/custom.css
+/html/css/custom.css.map
+/html/cv.pdf
+/html/index.html
+
+/templ/content.html
