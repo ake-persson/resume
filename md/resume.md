@@ -115,9 +115,9 @@ Upon Request.
 <div class="doc-card">
 # RESOURCES
 
-* [LinkedIn *(https://www.linkedin.com/in/ake-persson)*](https://www.linkedin.com/in/ake-persson)
-* [GitHub *(https://github.com/ake-persson)*](https://github.com/ake-persson)
-* [CodersRank *(https://profile.codersrank.io/user/mickep76)*](https://profile.codersrank.io/user/mickep76)
+* [LinkedIn *(https://www.linkedin.com/in/ake-persson)*](https://www.linkedin.com/in/ake-persson){:target="_blank"}
+* [GitHub *(https://github.com/ake-persson)*](https://github.com/ake-persson){:target="_blank"}
+* [CodersRank *(https://profile.codersrank.io/user/mickep76)*](https://profile.codersrank.io/user/mickep76){:target="_blank"}
 </div>
 
 </div>
