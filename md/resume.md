@@ -117,7 +117,6 @@ Upon Request.
 
 * [LinkedIn *(https://www.linkedin.com/in/ake-persson)*](https://www.linkedin.com/in/ake-persson)
 * [GitHub *(https://github.com/ake-persson)*](https://github.com/ake-persson)
-* [CodersRank *(https://profile.codersrank.io/user/mickep76)*](https://profile.codersrank.io/user/mickep76)
 </div>
 
 </div>
