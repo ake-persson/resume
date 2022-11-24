@@ -3,7 +3,7 @@
 
 # Åke Persson
 
-**Age**: 45
+**Age**: 46
 **Nationality**: Swedish
 **Email**: [hello@akepersson.com](mailto:hello@akepersson.com)
 </div>
@@ -22,6 +22,7 @@ I worked in a variety of IT roles in different companies both private and govern
 
 * **2021/11-Present** Utopia Music AG *(Stockholm/Sweden)*
 	**Senior Backend Go developer**.
+	Backend development in Go using gRPC, GraphQL and PostgreSQL.
 
 * **2019/08-2021/08** FUGA Music *(Amsterdam/Netherlands)*
 	**SRE Team Lead** responsible for Support, Infrastructure and Operations.
