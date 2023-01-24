@@ -22,6 +22,19 @@ $h1-font-size: $font-size-base * 2 !default;
 $h2-font-size: $font-size-base * 1.5 !default;
 $h3-font-size: $font-size-base * 1.25 !default;
 
+/* Define colors */
+$light-green: rgba(179, 203, 148, 1) !default;
+$dark-green: rgba(148, 180, 107, 1) !default;
+
+$light-blue: rgba(152, 194, 210, 1) !default;
+$dark-blue: rgba(97, 165, 190, 1) !default;
+
+$light-purple: rgba(158, 145, 180, 1) !default;
+$dark-purple: rgba(126, 110, 154, 1) !default;
+
+$light-orange: rgba(220, 181, 155, 1) !default;
+$dark-orange: rgba(206, 151, 112, 1) !default;
+
 /* Import Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -111,6 +124,112 @@ $h3-font-size: $font-size-base * 1.25 !default;
     }
     table {
       width: 100%;
+    }
+  }
+}
+
+.graph {
+  table {
+    width: 100%;
+    margin-top: 25px;
+    thead > tr > th {
+      font-size: $h2-font-size;
+    }
+    th:nth-child(2) {
+      text-align: right;
+    }
+    tbody > tr > td {
+      font-size: $h1-font-size;
+      color: white;
+      margin-left: 20px;
+    }
+    tbody > tr > td:before {
+      content: " ";
+      white-space: pre;
+    }
+  }
+
+  .mbti-1 > table {
+    thead > tr {
+      th:first-child {
+        width: 37%;
+        color: $light-green;
+      }
+      th:nth-child(2) {
+        width: 63%;
+        color: $dark-green;
+      }
+    }
+    tbody > tr {
+      td:first-child {
+        background-color: $light-green;
+      }
+      td:nth-child(2) {
+        background-color: $dark-green;
+      }
+    }
+  }
+
+  .mbti-2 > table {
+    thead > tr {
+      th:first-child {
+        width: 21%;
+        color: $light-blue;
+      }
+      th:nth-child(2) {
+        width: 79%;
+        color: $dark-blue;
+      }
+    }
+    tbody > tr {
+      td:first-child {
+        background-color: $light-blue;
+      }
+      td:nth-child(2) {
+        background-color: $dark-blue;
+      }
+    }
+  }
+
+  .mbti-3 > table {
+    thead > tr {
+      th:first-child {
+        width: 62%;
+        color: $light-purple;
+      }
+      th:nth-child(2) {
+        width: 38%;
+        color: $dark-purple;
+      }
+    }
+    tbody > tr {
+      td:first-child {
+        background-color: $light-purple;
+      }
+      td:nth-child(2) {
+        background-color: $dark-purple;
+      }
+    }
+  }
+
+  .mbti-4 > table {
+    thead > tr {
+      th:first-child {
+        width: 42%;
+        color: $light-orange;
+      }
+      th:nth-child(2) {
+        width: 58%;
+        color: $dark-orange;
+      }
+    }
+    tbody > tr {
+      td:first-child {
+        background-color: $light-orange;
+      }
+      td:nth-child(2) {
+        background-color: $dark-orange;
+      }
     }
   }
 }

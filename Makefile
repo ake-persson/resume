@@ -27,6 +27,14 @@ html: css
 	cat templ/content.html >>html/index.html ;\
 	cat templ/footer.html >>html/index.html ;\
 	prettier --write html/index.html
+	docker run -it -v $$PWD:/build debian-pandoc \
+		-f markdown+hard_line_breaks \
+		/build/md/bio.md \
+		-o /build/templ/content.html ;\
+	cat templ/bio-header.html >html/bio.html ;\
+	cat templ/content.html >>html/bio.html ;\
+	cat templ/footer.html >>html/bio.html ;\
+	prettier --write html/bio.html
 
 css:
 	mkdir -p html/css
