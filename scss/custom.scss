@@ -12,6 +12,9 @@ $link-hover-color: darken($link-color, 15%) !default;
 $light: rgba($body-bg, 0.95) !default;
 $profile-bg: lighten($link-color, 15%) !default;
 
+$graph-light: lighten($link-color, 35%) !default;
+$graph-dark: lighten($link-color, 15%) !default;
+
 /* Override Font */
 $font-family-base: "Arial", sans-serif;
 $headings-font-family: "Arial", sans-serif;
@@ -132,20 +135,32 @@ $dark-orange: rgba(206, 151, 112, 1) !default;
   table {
     width: 100%;
     margin-top: 25px;
-    thead > tr > th {
+
+    th {
       font-size: $h2-font-size;
+    }
+    th:first-child {
+      color: $graph-light;
     }
     th:nth-child(2) {
       text-align: right;
+      color: $graph-dark;
     }
-    tbody > tr > td {
+
+    td {
       font-size: $h1-font-size;
       color: white;
       margin-left: 20px;
     }
-    tbody > tr > td:before {
+    td:before {
       content: " ";
       white-space: pre;
+    }
+    td:first-child {
+      background-color: $graph-light;
+    }
+    td:nth-child(2) {
+      background-color: $graph-dark;
     }
   }
 
@@ -153,19 +168,9 @@ $dark-orange: rgba(206, 151, 112, 1) !default;
     thead > tr {
       th:first-child {
         width: 37%;
-        color: $light-green;
       }
       th:nth-child(2) {
         width: 63%;
-        color: $dark-green;
-      }
-    }
-    tbody > tr {
-      td:first-child {
-        background-color: $light-green;
-      }
-      td:nth-child(2) {
-        background-color: $dark-green;
       }
     }
   }
@@ -174,19 +179,9 @@ $dark-orange: rgba(206, 151, 112, 1) !default;
     thead > tr {
       th:first-child {
         width: 21%;
-        color: $light-blue;
       }
       th:nth-child(2) {
         width: 79%;
-        color: $dark-blue;
-      }
-    }
-    tbody > tr {
-      td:first-child {
-        background-color: $light-blue;
-      }
-      td:nth-child(2) {
-        background-color: $dark-blue;
       }
     }
   }
@@ -195,19 +190,9 @@ $dark-orange: rgba(206, 151, 112, 1) !default;
     thead > tr {
       th:first-child {
         width: 62%;
-        color: $light-purple;
       }
       th:nth-child(2) {
         width: 38%;
-        color: $dark-purple;
-      }
-    }
-    tbody > tr {
-      td:first-child {
-        background-color: $light-purple;
-      }
-      td:nth-child(2) {
-        background-color: $dark-purple;
       }
     }
   }
@@ -216,19 +201,9 @@ $dark-orange: rgba(206, 151, 112, 1) !default;
     thead > tr {
       th:first-child {
         width: 42%;
-        color: $light-orange;
       }
       th:nth-child(2) {
         width: 58%;
-        color: $dark-orange;
-      }
-    }
-    tbody > tr {
-      td:first-child {
-        background-color: $light-orange;
-      }
-      td:nth-child(2) {
-        background-color: $dark-orange;
       }
     }
   }
