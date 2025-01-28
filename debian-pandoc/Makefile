@@ -1,11 +1,14 @@
-IMG="debian-pandoc"
+DOCKER ?= podman
+IMG := "debian-pandoc"
 
 all: clean build
 
+.PHONY: clean
 clean:
-	docker rmi $(IMG):latest &>/dev/null || true
+	$(DOCKER) rmi $(IMG):latest &>/dev/null || true
 
+.PHONY: build
 build: build
-	docker build --pull=true --no-cache -t $(IMG):latest .
+	$(DOCKER) build --pull=true --no-cache -t $(IMG):latest .
 
 .PHONY: clean build
