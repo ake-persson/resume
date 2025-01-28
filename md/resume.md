@@ -20,7 +20,11 @@ I worked in a variety of IT roles in different companies both private and govern
 <div class="doc-card">
 # EXPERIENCE
 
-* **2021/11-Present** Utopia Music AG *(Stockholm/Sweden)*
+* **2024/07-Present** Trustly Group AG *(Stockholm/Sweden)*
+        **Go Software Engineer**.
+        Development in Go using Kafka, PostgreSQL and OpenAPI.
+
+* **2021/11-2024/06** Utopia Music AG *(Stockholm/Sweden)*
 	**Senior Backend Go developer**.
 	Backend development in Go using gRPC, GraphQL and PostgreSQL.
 
